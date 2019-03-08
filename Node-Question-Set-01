@@ -2,3 +2,4 @@
 2. What are callbacks?
 3. What are promises?
 4. What is the difference between callback and promises?
+5. Is Node.js Single-threaded? If yes, then how it manages multi tasking.
