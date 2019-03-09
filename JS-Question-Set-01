@@ -36,3 +36,22 @@ Because we are redeclaring the variable a and assigning it value 20;
 
     console.log(a);
   }
+
+Answer :
+10
+20
+10
+
+7. How do you delete the last element of an array? Delete the last element of this array :
+
+  Arr : ['a','b','c','d','e']
+
+  Arr.pop(); // This will return 'e' and resulting array will be ['a','b','c','d']
+
+8. How to loop over elements of objects.
+
+  e.g :
+  obj = {
+    rain : {"sun" : "5 inch","mon":"3 inch"},
+    snow : {"sun" : "10 inch","mon":"8 inch"}
+  };

@@ -2,4 +2,6 @@
 2. What are callbacks?
 3. What are promises?
 4. What is the difference between callback and promises?
-5. Is Node.js Single-threaded? If yes, then how it manages multi tasking.
+5. Is Node.js Single-threaded? If yes, then how it manages multi tasking?
+6. Why use Node.js or What are the advantages of Node.js?
+7. What is callback hell? How do you prevent it?
