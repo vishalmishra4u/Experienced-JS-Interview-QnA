@@ -55,3 +55,6 @@ Answer :
     rain : {"sun" : "5 inch","mon":"3 inch"},
     snow : {"sun" : "10 inch","mon":"8 inch"}
   };
+
+9. WHat is a spread operator. (...)
+10. What are LHS and RHS lookups in js?  
