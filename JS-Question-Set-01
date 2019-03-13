@@ -1,8 +1,39 @@
 1. What is a closure?
-2. What are apply, call, bind?
-3. Name some array methods.
-4. What are the differences between let, var and const?
-5. What is the output of the following code?
+
+Answer :
+    Closure is when a function is able to remember and access
+    its lexical scope even when that function is executing outside its lexical scope.
+
+    lets understand it by this example below :
+
+    function foo() {
+	     var a = 2;
+
+      function bar() {
+    		console.log( a );
+    	}
+
+    	return bar;
+    }
+
+    var baz = foo();
+
+    baz(); // 2
+
+    On executing baz(), it returns output 2 because bar() still has a refernce to the scope in
+    which it was defined, and that refernce is closed closure.
+
+2. What is lexical scope?
+
+Answer :
+    lexical scope is scope that is defined at lexing(Compile time, Look to question#11 for more) time.
+    In other words, lexical scope is based on where variables and blocks of scope are authored,
+    by you, at write time, and thus is (mostly) set in stone by the time the lexer processes your code.
+
+3. What are apply, call, bind?
+4. Name some array methods.
+5. What are the differences between let, var and const?
+6. What is the output of the following code?
 
   function a(){
     var a = 10;
@@ -23,7 +54,7 @@ Answer :
 
 Because we are redeclaring the variable a and assigning it value 20;
 
-6. What is the output of the following code?
+7. What is the output of the following code?
 
   function a(){
     let a = 10;
@@ -42,13 +73,13 @@ Answer :
 20
 10
 
-7. How do you delete the last element of an array? Delete the last element of this array :
+8. How do you delete the last element of an array? Delete the last element of this array :
 
   Arr : ['a','b','c','d','e']
 
   Arr.pop(); // This will return 'e' and resulting array will be ['a','b','c','d']
 
-8. How to loop over elements of objects.
+9. How to loop over elements of objects.
 
   e.g :
   obj = {
@@ -56,5 +87,6 @@ Answer :
     snow : {"sun" : "10 inch","mon":"8 inch"}
   };
 
-9. WHat is a spread operator. (...)
-10. What are LHS and RHS lookups in js?  
+10. WHat is a spread operator. (...)
+
+11. Is JS compliled language or interpreted language?
