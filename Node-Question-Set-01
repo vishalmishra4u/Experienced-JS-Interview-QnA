@@ -3,5 +3,15 @@
 3. What are promises?
 4. What is the difference between callback and promises?
 5. Is Node.js Single-threaded? If yes, then how it manages multi tasking?
+
+Answer : Yes, Node.js is single threadad. Node.js has event loop which manages
+  multi-tasking.
+
 6. Why use Node.js or What are the advantages of Node.js?
+
+Answer :
+  1. Asynchronous I/O
+  2. Highly scalable
+  3. Lightweight.
+  
 7. What is callback hell? How do you prevent it?
