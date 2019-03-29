@@ -155,6 +155,24 @@ Answer :
     snow : {"sun" : "10 inch","mon":"8 inch"}
   };
 
-10. WHat is a spread operator. (...)
+10. What is a spread operator. (...)
 
-11. Is JS compliled language or interpreted language?
+Answer : Spread syntax allows an iterable such as an array expression or string to be expanded
+in places where zero or more arguments (for function calls) or elements (for array literals) are expected.
+
+  Example :
+    function sum(x, y, z) {
+      return x + y + z;
+    }
+
+    const numbers = [1, 2, 3];
+
+    console.log(sum(...numbers));
+    // expected output: 6
+
+    console.log(sum.apply(null, numbers));
+
+11. Is JS compiled language or interpreted language?
+
+Answer : JS is a interpreted language but its also not completely interpreted.
+Things like hoisting take place in js compile time.
