@@ -11,6 +11,14 @@ Answer : Callback is an asynchronous equivalent for a function.
  of requests without waiting for any function to return results.
 
 3. What are promises?
+
+Answer : A promise is just an enhancement to callback functions in Node.js.
+During the development lifecycle, there may be an instance where you would need
+to nest multiple callback functions together.
+This can get kind of messy and difficult to maintain at a certain point in time.
+In short, a promise is an enhancement to callbacks that looks towards alleviating these problems.
+
+
 4. What is the difference between callback and promises?
 5. Is Node.js Single-threaded? If yes, then how it manages multi tasking?
 
