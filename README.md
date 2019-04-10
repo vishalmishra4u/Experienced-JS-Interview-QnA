@@ -4,3 +4,4 @@ This repository contains questions and answers for Node.js/Javascript interview,
 
 ## Js Interview questions and answers
 This file consists of mixtures of easy, medium and difficult questions from mostly all versions of javascript.
+Read and learn.
