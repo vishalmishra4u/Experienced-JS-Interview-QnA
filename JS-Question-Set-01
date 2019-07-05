@@ -155,6 +155,15 @@ Answer :
     snow : {"sun" : "10 inch","mon":"8 inch"}
   };
 
+Answer : 
+
+for (var sun in obj.rain) {
+    if (object.hasOwnProperty(property)) {
+        // do stuff
+    }
+}
+
+
 10. What is a spread operator. (...)
 
 Answer : Spread syntax allows an iterable such as an array expression or string to be expanded
