@@ -97,7 +97,7 @@ Answer :
 
 Answer :
     Array.forEach(), Array.push(), Array.pop(), Array.shift(), Array.unshift(), Array.indexOf(),
-    Array.slice(), Array.map() etc
+    Array.slice(), Array.map(), Array.split() etc
 
 5. What are the differences between let, var and const?
 
