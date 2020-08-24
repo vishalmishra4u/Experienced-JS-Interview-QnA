@@ -1,8 +1,15 @@
-1. What is a closure?
+1. What is lexical scope?
 
 Answer :
-    Closure is when a function is able to remember and access
-    its lexical scope even when that function is executing outside its lexical scope.
+    lexical scope is scope that is defined at lexing(Compile time, Look to question#11 for more) time.
+    In other words, lexical scope is based on where variables and blocks of scope are authored,
+    by you, at write time, and thus is (mostly) set in stone by the time the lexer processes your code.
+
+
+2. What is a closure?
+
+Answer :
+    When a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope.
 
     lets understand it by this example below :
 
@@ -25,13 +32,6 @@ Answer :
 
     The function is being invoked well outside of its author-time lexical scope.
     Closure lets the function continue to access the lexical scope it was defined in at author-time.
-
-2. What is lexical scope?
-
-Answer :
-    lexical scope is scope that is defined at lexing(Compile time, Look to question#11 for more) time.
-    In other words, lexical scope is based on where variables and blocks of scope are authored,
-    by you, at write time, and thus is (mostly) set in stone by the time the lexer processes your code.
 
 3. What are apply, call, bind?
 
