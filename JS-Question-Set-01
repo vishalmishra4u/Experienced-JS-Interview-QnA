@@ -157,8 +157,8 @@ Answer :
 
 Answer : 
 
-for (var sun in obj.rain) {
-    if (object.hasOwnProperty(property)) {
+for (let day in obj.rain) {
+    if (obj.hasOwnProperty('rain')) {
         // do stuff
     }
 }
