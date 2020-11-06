@@ -95,9 +95,10 @@ Answer :
 
 4. Name some array methods.
 
-Answer :
+```
     Array.forEach(), Array.push(), Array.pop(), Array.shift(), Array.unshift(), Array.indexOf(),
     Array.slice(), Array.map(), Array.split() etc
+```
 
 5. What are the differences between let, var and const?
 
