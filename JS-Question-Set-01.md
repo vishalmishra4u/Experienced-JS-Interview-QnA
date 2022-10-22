@@ -1,4 +1,4 @@
-1. What is lexical scope?
+### 1. What is lexical scope?
 
 Answer :
     lexical scope is scope that is defined at lexing(Compile time, Look to question#11 for more) time.
