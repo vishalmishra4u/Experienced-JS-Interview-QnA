@@ -38,7 +38,7 @@ Answer :
 Answer :
     Apply : The apply() method calls a function with a given this value,
     and arguments provided as an array (or an array-like object).
-
+```
       Example :
       var numbers = [5, 6, 2, 3, 7];
 
@@ -51,10 +51,11 @@ Answer :
 
       console.log(min);
       // expected output: 2
+```
 
+   Call : The call() method calls a function with a given this value and arguments provided individually.
 
-    Call : The call() method calls a function with a given this value and arguments provided individually.
-
+```      
       Example :
       function Product(name, price) {
         this.name = name;
@@ -68,12 +69,13 @@ Answer :
 
       console.log(new Food('cheese', 5).name);
       // expected output: "cheese"
+```
 
-
-    Bind : The bind() method creates a new function that,
+   Bind : The bind() method creates a new function that,
     when called, has its this keyword set to the provided value,
     with a given sequence of arguments preceding any provided when the new function is called.
 
+```
     this.x = 9;    // this refers to global "window" object here in the browser
     var module = {
       x: 81,
@@ -91,7 +93,7 @@ Answer :
     // global var x with module's property x
     var boundGetX = retrieveX.bind(module);
     boundGetX(); // 81
-
+```
 
 ### 4. Name some array methods.
 
