@@ -16,8 +16,8 @@ Answer :
     function foo() {
 	     var a = 2;
 
-      function bar() {
-    		console.log( a );
+        function bar() {
+    	     console.log(a);
     	}
 
     	return bar;
