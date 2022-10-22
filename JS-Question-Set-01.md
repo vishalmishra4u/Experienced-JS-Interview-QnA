@@ -6,7 +6,7 @@ Answer :
     by you, at write time, and thus is (mostly) set in stone by the time the lexer processes your code.
 
 
-2. What is a closure?
+### 2. What is a closure?
 
 Answer :
     When a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope.
@@ -33,7 +33,7 @@ Answer :
     The function is being invoked well outside of its author-time lexical scope.
     Closure lets the function continue to access the lexical scope it was defined in at author-time.
 
-3. What are apply, call, bind?
+### 3. What are apply, call, bind?
 
 Answer :
     Apply : The apply() method calls a function with a given this value,
@@ -93,14 +93,14 @@ Answer :
     boundGetX(); // 81
 
 
-4. Name some array methods.
+### 4. Name some array methods.
 
 ```
     Array.forEach(), Array.push(), Array.pop(), Array.shift(), Array.unshift(), Array.indexOf(),
     Array.slice(), Array.map(), Array.split() etc
 ```
 
-5. What are the differences between let, var and const?
+### 5. What are the differences between let, var and const?
 
 ```
 var declarations are globally scoped or function scoped while let and const are block scoped.
@@ -114,7 +114,7 @@ While var and let can be declared without being initialized, const must be initi
 ```
 
 
-6. What is the output of the following code?
+### 6. What is the output of the following code?
 
   function a(){
     var a = 10;
@@ -135,7 +135,7 @@ Answer :
 
 Because we are redeclaring the variable a and assigning it value 20;
 
-7. What is the output of the following code?
+### 7. What is the output of the following code?
 
   function a(){
     let a = 10;
@@ -154,13 +154,13 @@ Answer :
 20
 10
 
-8. How do you delete the last element of an array? Delete the last element of this array :
+### 8. How do you delete the last element of an array? Delete the last element of this array :
 
   Arr : ['a','b','c','d','e']
 
   Arr.pop(); // This will return 'e' and resulting array will be ['a','b','c','d']
 
-9. How to loop over elements of objects.
+### 9. How to loop over elements of objects.
 
   e.g :
   obj = {
@@ -177,7 +177,7 @@ for (let day in obj.rain) {
 }
 
 
-10. What is a spread operator. (...)
+### 10. What is a spread operator. (...)
 
 Answer : Spread syntax allows an iterable such as an array expression or string to be expanded
 in places where zero or more arguments (for function calls) or elements (for array literals) are expected.
@@ -194,7 +194,7 @@ in places where zero or more arguments (for function calls) or elements (for arr
 
     console.log(sum.apply(null, numbers));
 
-11. Is JS compiled language or interpreted language?
+### 11. Is JS compiled language or interpreted language?
 
 Answer : JS is a interpreted language but its also not completely interpreted.
-Things like hoisting take place in js compile time.
+Things like hoisting take place in js compile time. So, its basically JIT compiled i.e Just In Time Compiled.
